@@ -1,5 +1,34 @@
 <pre class="line-numbers">
     <code class="language-css">
-       // code goes here
+      //returns a boolean value determining if the passed value is greater than 2
+      function greaterThanTwo(x){
+            var result = x &gt; 2;
+            return result;
+      }
+---------------------------------------      
+      //adds 3 to the passed number
+      function addThree(x){
+            var result = x + 3;
+            return result;
+      }
+---------------------------------------      
+      // returns a list of integers from x to 0 or an empty list if x &lt;= 0
+      function makeList(int x){
+          resultList = [];
+          while (x > 0){
+                 resultList.push(x);
+                 x = x - 1;
+          }
+          return resultList;
+      }
+---------------------------------------      
+      greaterThanTwo(1);   //False
+      greaterThanTwo(30);  //True
+      
+      addThree(2);  //5
+      addThree(0);  //3
+      
+      makeList(5); // (5, 4, 3, 2, 1)
+      makeList(0); // ()
     </code>
  </pre>

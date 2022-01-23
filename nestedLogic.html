@@ -1,5 +1,39 @@
 <pre class="line-numbers">
     <code class="language-css">
-       // code goes here
+      if (circular){
+         if (smellsSweet){
+            if (hasChocolateChips){
+                  if (tastesGood){
+                     //Cookie!
+                  }
+                  else{
+                     //Stale Cookie
+                  }
+            else{
+               //sweet roll
+            }
+         else{
+            //empty plate
+         }
+      else{
+         //undefined sweets
+      }
+         
+---------------------------------------      
+      var listA = [];      
+      var listB = [];
+
+      for (let i=1; i&lt;6;i++){
+         listA.push(i);
+         listB.push(i);
+      }
+
+      var vectorProduct = 0;
+      listA.forEach((a) => {
+         listB.forEach((b) => {
+            vectorProduct = vectorProduct + (a * b)
+         })
+      })
+      vectorProduct;
     </code>
  </pre>
